@@ -19,7 +19,7 @@ public class ExampleTest : PageTest
         // Verifica que el título contenga "Playwright".  
         await Expect(Page).ToHaveTitleAsync(new Regex("Playwright"));  
     }  
-
+    //prueba 2
     [Test]  
     public async Task GetStartedLink()  
     {  
